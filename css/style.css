@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+body{
+    background-color: #FFB32F;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.header,
+.navigation,
+.main,
+.footer{
+    max-width: 53rem;
+    width:100%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.header,
+.navigation,
+.main{
+    background-color: #FFF;
+}
+
+.header__heading,
+.header__slogan,
+.navigation,
+.section__heading,
+.section__link,
+.section__thead,
+.section__fields{
+    text-transform: uppercase;
+}
+
+.section__fields,
+.footer{
+    color:#FFF;
+}
+
+.header__slogan{
+    border-bottom: solid 1px #C81B84;
+    padding-bottom: 0;
+}
+
+.header__heading,
+.header__slogan{
+    font-weight: 400;
+}
+
+.header__heading{
+    font-size: 40px;
+}
+
+.header__letter{
+    color:#C81B84;
+    font-size:55px;
+}
+
+.header__company-name{
+    text-decoration: underline;
+}
+
+.main{
+    flex:1;
+}
+
+.navigation__item{
+    display: inline;
+}
+
+.navigation__item:not(:last-child)::after{
+    content:" /";
+}
+
+.navigation__link{
+    color:#000;
+}
+
+
+.section:not(:first-child){
+    margin: 1in 0;
+}
+
+blockquote{
+    width:30rem;
+    margin:0 auto;
+}
+.section__author-picture{
+    border-radius:50%;
+}
+
+.section__author-picture--intro{
+    height: 250px;
+    width: 250px;
+}
+
+.section__author-picture--footer{
+    height: 100px;
+    width: 100px;
+}
+
+.section__citation,
+cite{
+    font-style: italic;
+}
+
+cite{
+    text-align: right;
+    display: block;
+}
+
+.section__citation{
+    color:gray;
+    line-height: 2rem;
+}
+
+.section__experience{
+    text-align: left;
+}
+
+.section__link{
+    color:#FFB32F;
+}
+
+.section__list-items{
+    list-style-type: none;
+}
+
+.section__item{
+    color: #00C2A7;
+}
+
+table{
+    width: 100%;
+}
+
+.section__thead{
+    background-color:#FFB32F;
+}
+
+.section__fields{
+    background-color: #00C2A7;
+}
+
+th,td{
+    padding:0.5rem;
+}
+
+.section__td{
+    border:solid 1px lightgray;
+}
+
+.footer{
+    background-color: #C81B84;
+}
+
+.footer__info{
+    text-decoration: underline;
+}
